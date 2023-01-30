@@ -1,0 +1,143 @@
+@import "./common.css";
+@import "./header.css";
+@import "./footer.css";
+
+.row-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+
+.card:nth-child(1) {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 190px;
+  border-radius: 12px;
+  background-color: #4da3ff;
+}
+
+.card i {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.card h1 {
+  font-size: 45px;
+}
+
+.card:nth-child(2) {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  border-radius: 12px;
+  padding: 50px 190px;
+  background-color: #ffe6ac;
+}
+
+.card:nth-child(3) {
+ margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  
+  padding: 50px 190px;
+  background-color: #e7d1fc;
+}
+
+.about-top {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.about-top i {
+  font-size: 30px;
+  color: #fff;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.about-top h2 {
+  font-size: 40px;
+}
+
+/* --tabls-- */
+
+table {
+  margin-top: 50px;
+}
+.checkd input {
+  width: 50px;
+  
+  height: 50px;
+  appearance: none;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+}
+
+.checkd input::after {
+  content: "";
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 12px;
+  /* opacity: 0; */
+  width: 30px;
+  height: 20px;
+  border: 5px solid white;
+  transform: scale(0) rotate(-45deg);
+  border-color: transparent transparent white white;
+}
+
+.checkd input:checked::after {
+  opacity: 1;
+ 
+  transform: scale(1) rotate(-45deg);
+}
+
+.checkd input:checked {
+  background-color: #4da3ff;
+}
+
+.checkd {
+  margin-left: -80px;
+}
+
+.puplis th{
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+
+}
+
+button {
+  background-color: transparent;
+  border: none  ;
+}
+
+.puplis th .checkd {
+  margin-left: -110px;
+  margin-bottom: 20px;
+}
+
+.puplis td
+ {
+  padding: 10px 80px;
+  height: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+  white-space: nowrap;
+}

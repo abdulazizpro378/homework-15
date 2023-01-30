@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --aside-width: 250px;
+  --header-width: 80px;
+
+
+}
+
+.dark  {
+  background-color: black;
+ }
+ 
+ .dark * {
+   /* color: white !important; */
+ }
+
+ .dark header, .dark aside, .dark main {
+  background-color:#242526;
+  color: #ccc;
+ }
+
+ .dark .nav {
+  background-color:#242526 ;
+  color: #ccc;
+ }
+
+ .dark .hamburger i {
+  color: white;
+ }
+
+ .dark .header-top input {
+  background-color: #242526 ;
+ }
+
+ .dark .card:nth-child(1),
+ .dark .card:nth-child(2),
+ .dark .card:nth-child(3)
+ {
+  background-color: #3a3b3c;
+  color: #ccc; ;
+ }
+
+ .dark main .checkd input {
+  background-color:#3a3b3c ;
+ }
+
+ .dark .about-top i {
+  background-color:#3a3b3c  ;
+ }
+
+ .dark main::-webkit-scrollbar-thumb{
+   background-color:#3a3b3c ;
+ }
+
+ 
